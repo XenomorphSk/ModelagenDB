@@ -14,7 +14,7 @@ O propósito deste projeto é criar um banco de dados que suporte as principais 
 Tecnologias Utilizadas
 
     Banco de Dados: MySQL (padrão)
-    Ferramenta de Modelagem: MySQL Workbench (para modelagem e visualização ER)
+    Ferramenta de Modelagem: Draw.io (para modelagem e visualização ER)
     Linguagem de Consulta: SQL
 
 Estrutura do Banco de Dados
