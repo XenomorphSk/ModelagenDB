@@ -3,7 +3,7 @@
 ## 1. Histórico de Atualizações
 | Data     | Versão | Solicitação     | Descrição  | Autor   |
 |----------|--------|------------------|------------|---------|
-| 13/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
+| 22/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
 
 ## 2. Descrição do Caso de Uso
 O objetivo deste caso de uso é cadastrar um cliente no sistema, incluindo informações pessoais e detalhes relacionados.
@@ -76,7 +76,7 @@ O objetivo deste caso de uso é cadastrar um cliente no sistema, incluindo infor
 ## 1. Histórico de Atualizações
 | Data     | Versão | Solicitação     | Descrição  | Autor   |
 |----------|--------|------------------|------------|---------|
-| 13/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
+| 22/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
 
 ## 2. Descrição do Caso de Uso
 O objetivo deste caso de uso é cadastrar a definição de identidade de gênero no sistema.
@@ -135,7 +135,7 @@ O objetivo deste caso de uso é cadastrar a definição de identidade de gênero
 ## 1. Histórico de Atualizações
 | Data     | Versão | Solicitação     | Descrição  | Autor   |
 |----------|--------|------------------|------------|---------|
-| 13/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
+| 22/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
 
 ## 2. Descrição do Caso de Uso
 O objetivo deste caso de uso é cadastrar a etnia no sistema.
@@ -194,7 +194,7 @@ O objetivo deste caso de uso é cadastrar a etnia no sistema.
 ## 1. Histórico de Atualizações
 | Data     | Versão | Solicitação     | Descrição  | Autor   |
 |----------|--------|------------------|------------|---------|
-| 13/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
+| 22/09    | 01     | Professor Silvio  | Use Case   | Gabriel |
 
 ## 2. Descrição do Caso de Uso
 O objetivo deste caso de uso é cadastrar a orientação sexual no sistema.
