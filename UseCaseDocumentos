@@ -70,4 +70,5 @@ O objetivo deste caso de uso é cadastrar documentos de um cliente no sistema, i
 | data_emissao       | Data    |     |         | Sim   | TipoDocumento  |              | Campo obrigatório |
 | orgao_emissor      | Texto   | 255 |         | Não   | TipoDocumento  |              |                  |
 
-### 9. 
+## 9. Protótipos de Tela/Relatórios
+![Logo do Projeto](Telas/documentos.png)
