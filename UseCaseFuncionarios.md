@@ -73,4 +73,5 @@ O objetivo deste caso de uso é cadastrar um funcionário no sistema, incluindo 
 | id_etnia             | Inteiro   |     |         | Sim   | TipoFuncionario   |                  | Campo obrigatório |
 | id_orientacao_sexual | Inteiro   |     |         | Sim   | TipoFuncionario   |                  | Campo obrigatório |
 
-
+## 9. Protótipos de Tela/Relatórios
+![Logo do Projeto](Telas/Funcionarios.png)
