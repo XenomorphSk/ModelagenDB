@@ -75,3 +75,5 @@ O objetivo deste caso de uso é cadastrar veículos no sistema, incluindo inform
 | id_tipo_veiculo      | Inteiro |     |         | Sim   | TipoVeiculo     | TiposVeiculo  | Campo obrigatório |
 
 
+## 9. Protótipos de Tela/Relatórios
+![Logo do Projeto](Telas/Vaiculo.png)
