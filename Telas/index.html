@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurityMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('clientes')">Clientes</a></li>
+                <li><a href="#" onclick="showSection('documentos')">Documentos do Cliente</a></li>
+                <li><a href="#" onclick="showSection('dependentes')">Dependentes</a></li>
+                <li><a href="#" onclick="showSection('corretores')">Corretores</a></li>
+                <li><a href="#" onclick="showSection('veiculos')">Veículos</a></li>
+                <li><a href="#" onclick="showSection('apolices')">Apólices</a></li>
+                <li><a href="#" onclick="showSection('sinistros')">Sinistros</a></li>
+                <li><a href="#" onclick="showSection('funcionarios')">Funcionários</a></li>
+            </ul>
+        </nav>
+
+        <div id="clientes" class="section">
+            <h2>Clientes</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="text" placeholder="CPF" maxlength="11" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Telefone" required>
+                <input type="text" placeholder="Endereço" required>
+                <input type="date" placeholder="Data de Nascimento" required>
+                <select required>
+                    <option value="">Selecione o Gênero</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                    <option value="3">Outro</option>
+                </select>
+                <select required>
+                    <option value="">Selecione a Etnia</option>
+                    <option value="1">Branca</option>
+                    <option value="2">Preta</option>
+                    <option value="3">Parda</option>
+                </select>
+                <select required>
+                    <option value="">Selecione a Orientação Sexual</option>
+                    <option value="1">Heterossexual</option>
+                    <option value="2">Homossexual</option>
+                    <option value="3">Bissexual</option>
+                </select>
+                <button type="submit">Adicionar Cliente</button>
+            </form>
+        </div>
+
+        <div id="documentos" class="section" style="display: none;">
+            <h2>Documentos do Cliente</h2>
+            <form>
+                <input type="text" placeholder="Tipo de Documento" required>
+                <input type="text" placeholder="Número do Documento" required>
+                <input type="date" placeholder="Data de Emissão" required>
+                <input type="text" placeholder="Órgão Emissor" required>
+                <button type="submit">Adicionar Documento</button>
+            </form>
+        </div>
+
+        <div id="dependentes" class="section" style="display: none;">
+            <h2>Dependentes</h2>
+            <form>
+                <input type="text" placeholder="Nome do Dependente" required>
+                <input type="text" placeholder="Relação" required>
+                <input type="date" placeholder="Data de Nascimento" required>
+                <button type="submit">Adicionar Dependente</button>
+            </form>
+        </div>
+
+        <div id="corretores" class="section" style="display: none;">
+            <h2>Corretores</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="text" placeholder="CPF" maxlength="11" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Adicionar Corretor</button>
+            </form>
+        </div>
+
+        <div id="veiculos" class="section" style="display: none;">
+            <h2>Veículos</h2>
+            <form>
+                <input type="text" placeholder="Placa" maxlength="7" required>
+                <input type="text" placeholder="Chassi" required>
+                <input type="number" placeholder="Ano de Fabricação" required>
+                <input type="number" placeholder="Ano do Modelo" required>
+                <select required>
+                    <option value="">Selecione o Tipo de Veículo</option>
+                    <option value="1">Sedan</option>
+                    <option value="2">SUV</option>
+                </select>
+                <button type="submit">Adicionar Veículo</button>
+            </form>
+        </div>
+
+        <div id="apolices" class="section" style="display: none;">
+            <h2>Apólices</h2>
+            <form>
+                <input type="text" placeholder="Número da Apólice" required>
+                <input type="date" placeholder="Data de Início" required>
+                <input type="date" placeholder="Data de Fim" required>
+                <input type="number" placeholder="Valor de Cobertura" required>
+                <input type="number" placeholder="Valor do Prêmio" required>
+                <button type="submit">Adicionar Apólice</button>
+            </form>
+        </div>
+
+        <div id="sinistros" class="section" style="display: none;">
+            <h2>Sinistros</h2>
+            <form>
+                <input type="text" placeholder="Descrição" required>
+                <input type="date" placeholder="Data de Ocorrência" required>
+                <input type="number" placeholder="Valor da Indenização" required>
+                <button type="submit">Adicionar Sinistro</button>
+            </form>
+        </div>
+
+        <div id="funcionarios" class="section" style="display: none;">
+            <h2>Funcionários</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="text" placeholder="CPF" maxlength="11" required>
+                <input type="text" placeholder="Cargo" required>
+                <input type="number" placeholder="Salário" required>
+                <input type="date" placeholder="Data de Contratação" required>
+                <select required>
+                    <option value="">Selecione o Gênero</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                    <option value="3">Outro</option>
+                </select>
+                <button type="submit">Adicionar Funcionário</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
