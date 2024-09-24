@@ -76,4 +76,4 @@ O objetivo deste caso de uso é cadastrar veículos no sistema, incluindo inform
 
 
 ## 9. Protótipos de Tela/Relatórios
-![Logo do Projeto](Telas/Vaiculo.png)
+![Logo do Projeto](Telas/Veiculo.png)
