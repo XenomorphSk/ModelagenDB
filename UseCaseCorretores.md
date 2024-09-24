@@ -69,3 +69,5 @@ O objetivo deste caso de uso é cadastrar corretores no sistema, incluindo infor
 | email             | Texto   | 255 |         | Não   | TipoCorretor   |              |                  |
 | id_cliente        | Inteiro |     |         | Sim   | TipoCorretor   |              | Campo obrigatório |
 
+## 9. Protótipos de Tela/Relatórios
+![Logo do Projeto](Telas/documentos.png)
