@@ -69,3 +69,5 @@ O objetivo deste caso de uso é cadastrar dependentes de um cliente no sistema, 
 | relacao            | Texto   | 255 |         | Sim   | TipoDependente |              | Campo obrigatório |
 | data_nascimento    | Data    |     |         | Sim   | TipoDependente |              | Campo obrigatório |
 
+![Logo do Projeto](Telas/documentos.png)
+
