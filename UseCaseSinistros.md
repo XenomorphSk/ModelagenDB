@@ -73,4 +73,4 @@ O objetivo deste caso de uso é cadastrar sinistros no sistema, incluindo inform
 
 
 ## 9. Protótipos de Tela/Relatórios
-![Logo do Projeto](Telas/Sinistros.png)
+![Logo do Projeto](Telas/Sinsitros.png)
