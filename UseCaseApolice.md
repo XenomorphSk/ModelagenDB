@@ -74,5 +74,7 @@ O objetivo deste caso de uso é cadastrar apólices no sistema, incluindo inform
 | id_veiculo            | Inteiro   |     |         | Sim   | TipoApolice    | Veiculos         | Campo obrigatório |
 | id_tipo_cobertura     | Inteiro   |     |         | Sim   | TipoApolice    | TiposCobertura   | Campo obrigatório |
 
-### 9. Tabela SQL para Apólices
+
+## 9. Protótipos de Tela/Relatórios
+![Logo do Projeto](Telas/Apolices.png)
 
