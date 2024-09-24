@@ -69,7 +69,8 @@ O objetivo deste caso de uso é cadastrar um cliente no sistema, incluindo infor
 | id_orientacao_sexual      | Inteiro |     |         | Sim   | TipoCliente   |             | Campo obrigatório      |
 
 ## 9. Protótipos de Tela/Relatórios
-[Tela](https://www.exemplo.com)
+![Logo do Projeto](https://www.exemplo.com/logo.png)
+
 
 
 
