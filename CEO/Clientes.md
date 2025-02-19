@@ -1,6 +1,6 @@
-** UC0001 – Cadastrar Cliente - Especificação **
+# UC0001 – Cadastrar Cliente - Especificação 
 
-DADOS:
+## DADOS:
 
   id_cliente 	--> Identidade unica de um certo cliente ao sistema, etsa identidade é usada apenas pelo próprio sistema, sendo gerado pelo mesmo.
   nome 	--> Nome completo do cliente.
