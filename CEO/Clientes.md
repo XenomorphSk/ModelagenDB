@@ -9,3 +9,15 @@
   telefone 	--> É o número de telefone celular do cliente, somente telefone celular.
   endereco 	--> É o endereço físico do cliente, rua e número da residencia.
   data_nascimento --> É a data de quando, o cliente nasceu, dia, mês e ano.
+
+
+
+## REGRAS
+
+Referência 	Regra
+RN-0001 	O usuário deve ter acesso às opções de inclusão, alteração e exclusão.
+RN-0002 	O código do Cliente é gerado automaticamente pelo banco de dados de modo sequencial.
+RN-0003 	Não poderá existir mais de um registro com o mesmo CPF.
+RN-0004 	O Cliente só pode ser cadastrado se todos os campos obrigatórios estiverem preenchidos.
+RN-0005 	Os dados inseridos devem ser válidos com a realidade.
+
