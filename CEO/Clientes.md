@@ -21,3 +21,26 @@ RN-0003 	Não poderá existir mais de um registro com o mesmo CPF.
 RN-0004 	O Cliente só pode ser cadastrado se todos os campos obrigatórios estiverem preenchidos.
 RN-0005 	Os dados inseridos devem ser válidos com a realidade.
 
+
+## ITERFACE
+
+![(1)](https://github.com/user-attachments/assets/ffa48925-4573-45dc-9f36-9b1d79f52332)
+(1) 
+(2) 
+(3) 
+(4) 
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+(13)
+(14)
+(15)
+(16)
+(17)
+(18)
+(19)
