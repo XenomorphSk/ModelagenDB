@@ -20,6 +20,34 @@
 | RN-0004    | O Cliente só pode ser cadastrado se todos os campos obrigatórios estiverem preenchidos. |
 | RN-0005    | Os dados inseridos devem ser válidos com a realidade.                 |
 
+### **RN-0001: O usuário deve ter acesso às opções de inclusão, alteração e exclusão.**
+
+Você pode adicionar, editar ou remover clientes quando necessário. Isso ajuda a manter os dados sempre atualizados e precisos.
+
+---
+
+### **RN-0002: O código do Cliente é gerado automaticamente pelo banco de dados de modo sequencial.**
+
+O sistema cria um número único (ID) para cada cliente automaticamente. Assim, você não precisa se preocupar em gerar ou gerenciar esses códigos manualmente.
+
+---
+
+### **RN-0003: Não poderá existir mais de um registro com o mesmo CPF.**
+
+Cada cliente deve ter um CPF único no sistema. Isso evita duplicidades e garante que cada pessoa seja cadastrada apenas uma vez.
+
+---
+
+### **RN-0004: O Cliente só pode ser cadastrado se todos os campos obrigatórios estiverem preenchidos.**
+
+Para cadastrar um cliente, é preciso preencher todos os campos essenciais, como nome, CPF e telefone. Isso garante que não faltem informações importantes.
+
+---
+
+### **RN-0005: Os dados inseridos devem ser válidos com a realidade.**
+
+As informações cadastradas precisam ser reais e corretas. Por exemplo, o CPF deve ser válido, e o e-mail deve seguir um formato adequado. Isso evita erros e inconsistências.
+
 ## INTERFACE
 
 ![Interface](https://github.com/user-attachments/assets/ffa48925-4573-45dc-9f36-9b1d79f52332)
